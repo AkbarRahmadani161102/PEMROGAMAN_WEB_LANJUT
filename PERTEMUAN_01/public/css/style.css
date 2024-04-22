@@ -1,0 +1,10 @@
+body{
+  height: 100dvh;
+}
+
+.ktp-wrapper{
+  background: url(../img/background-ktp.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
