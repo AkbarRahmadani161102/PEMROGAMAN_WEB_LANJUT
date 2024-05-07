@@ -16,7 +16,7 @@ class MemberRegisterChart
         $this->chart = $chart;
     }
 
-    public function build(): \ArielMejiaDev\LarapexCharts\areaChart
+    public function build(): \ArielMejiaDev\LarapexCharts\BarChart
     {
         $levelMember = LevelModel::where('level_nama', 'Member')->first();
         $start = Carbon::now()->startOfMonth()->format('Y-m-d');
@@ -64,12 +64,12 @@ class MemberRegisterChart
         
         // dd($data->pluck('count'), $data->pluck('day'));
 
-        return $this->chart->areaChart()
-            ->setTitle('PWL POS Website Registrant Growth')
-            ->setSubtitle(' Registrant Growth in '.Carbon::now()->format('F'))
+        return $this->chart->BarChart()
+            ->setTitle('Pertumbuhan Pendaftar Website PWL POS')
+            ->setSubtitle('  Pertumbuhan Pendaftar di Bulan '.Carbon::now()->format('F'))
             ->addData('Number of Registrants', $data)
             ->setXAxis($date)
-            ->setColors(['#F6995C'])
+            ->setColors(['#5eff00'])
             ->setMarkers(['#f5721b'], 8);
     }
 }

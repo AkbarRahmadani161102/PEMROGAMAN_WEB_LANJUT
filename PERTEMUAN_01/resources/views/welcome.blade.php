@@ -29,13 +29,13 @@
               <td class="w-48 flex justify-between text-sm">
                 Nama <span>:</span>
               </td>
-              <td class="ps-1 text-sm uppercase">Muhammad Rayhan Gibran</td>
+              <td class="ps-1 text-sm uppercase">Akbar Rahmadani</td>
             </tr>
             <tr>
               <td class="w-48 flex justify-between text-sm">
                 Tempat/Tgl Lahir <span>:</span>
               </td>
-              <td class="ps-1 text-sm">MALANG, 16-03-2003</td>
+              <td class="ps-1 text-sm">MALANG, 16-11-2002</td>
             </tr>
             <tr>
               <td class="w-48 flex justify-between text-sm">
@@ -104,7 +104,7 @@
       </div>
       <div class="left-content grid">
         <div class="image-wrapper w-full">
-          <img src="{{asset('img/2131710099-2RKbT.jpeg')}}" class=" object-cover h-full w-40 rounded" />
+          <img src="{{asset('img/ktp.jpeg')}}" class=" object-cover h-full w-40 rounded" />
         </div>
         <div class="created-at text-center">
           <div class="region text-sm font-semibold mt-1">MALANG</div>
